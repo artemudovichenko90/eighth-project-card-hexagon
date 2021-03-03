@@ -1,0 +1,138 @@
+/*first*/
+body {
+    background: #156580;
+    height: 100vh;
+    background: radial-gradient(circle, rgb(28, 172, 208) 0%, #156580 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 4px 4px #006987;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maskborder {
+    position: relative;
+    background-color: rgb(50 151 177);
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+#mask {
+    background-color: inherit;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    object-fit: cover;
+    object-position: center;
+    width: 96%;
+    height: 96%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.name {
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #4b7ee3;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.btnFollow {
+    border: 1px solid #658ee3;
+    border-top: none;
+    box-shadow: 0 8px 0 0 #2a56ac;
+    border-radius: 0.5em;
+    background-color: #4b7ee3;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5em 4em;
+    font-weight: 700;
+    margin: auto 10px 20px;
+    display: flex;
+}
+
+/*second!!!!!*/
+/*body {*/
+/*    background: #156580;*/
+/*    height: 100vh;*/
+/*    background: radial-gradient(circle, rgb(28, 172, 208) 0%, #156580 100%);*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.card {*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    background: white;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 5px 4px 4px #006987;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    !*align-items: center;*!*/
+/*}*/
+
+/*.card-header {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.hexagon {*/
+/*    margin: -104px auto 0;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);*/
+/*}*/
+
+/*.border {*/
+/*    margin: -54px 0 0;*/
+/*    width: 108px;*/
+/*    height: 108px;*/
+/*    background: blue linear-gradient(0deg, rgb(0, 139, 175) 0%, rgb(26, 156, 189) 100%);*/
+/*    clip-path: polygon(100% 50%, 100% 75%, 50% 100%, 0 75%, 0 50%);*/
+/*}*/
+
+/*.logo {*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*    object-position: center;*/
+/*}*/
+
+/*.name {*/
+/*    margin-top: 10px;*/
+/*    font-family: sans-serif;*/
+/*    color: #4b7ee3;*/
+/*    font-size: 1.5em;*/
+/*    font-weight: 700;*/
+/*}*/
+
+/*.card-footer {*/
+/*    margin-top: auto;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.btnFollow {*/
+/*    border: 1px solid #658ee3;*/
+/*    border-top: none;*/
+/*    box-shadow: 0 8px 0 0 #2a56ac;*/
+/*    border-radius: 0.5em;*/
+/*    background-color: #4b7ee3;*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*    padding: 0.5em 0;*/
+/*    font-weight: 700;*/
+/*    width: 100%;*/
+/*    margin-bottom: 10px;*/
+/*}*/
